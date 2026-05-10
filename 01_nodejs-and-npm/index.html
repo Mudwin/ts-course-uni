@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/2.1.1/cropper.min.css"
+    />
+    <script src="./script.js" type="module" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="content-container">
+      <p class="text">You can crop image and download after</p>
+      <div class="cropped-image-container"></div>
+      <div class="buttons">
+        <button id="upload">Upload image</button>
+        <button id="crop">Crop image</button>
+        <button id="download">Download new image</button>
+        <input type="file" id="fileinput" class="hidden" />
+      </div>
+    </div>
+    <div class="new-image-container"></div>
+  </body>
+</html>
